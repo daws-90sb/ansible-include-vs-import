@@ -10,6 +10,11 @@
   debug: 
     msg: "Hi, I'am from common role MSG-3"
 
+
+- name: change the fact
+  set_fact: # set_fact is a module used to set the variable fact means variable, it will create the variables dynamically within the playbook, if we want to create the variables within playbook then we can use set_fact
+    os: "Debian" # overriding previous loaded variable
+
 - name: common role msg-4
   debug: 
     msg: "Hi, I'am from common role MSG-4"
