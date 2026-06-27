@@ -1,7 +1,8 @@
 - name: call common role
-  #import_role:
-  include_role: 
+  import_role:
+  #include_role: 
     name: common
   tags:
   - hi
+  # tags will not be respected and cascaded by include_role, but import_role will respect the tags
 
