@@ -16,5 +16,5 @@
 
 - name: call role-2
   #import_role: # import_role checks the syntax before the execution and it will stop the execution if there is any issue
-  include_role: # include_role won't check the syntax first it will execute
+  include_role: # include_role won't check the syntax first it will execute, include_role checks dynamically
    name: role-3
