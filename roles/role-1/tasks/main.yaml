@@ -7,3 +7,6 @@
   # tags will not be respected and cascaded by include_role, but import_role will respect the tags
   # import_role parse the playbook before execution, include_role parse the playbook at the time of exeution
   when: os == "RedHat"
+  loop:
+  - manisha
+  - nithisha
